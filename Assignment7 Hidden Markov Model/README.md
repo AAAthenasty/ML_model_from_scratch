@@ -51,6 +51,6 @@ Note that for each count, a “+1” is added to make a pseudocount. This is sli
 
 # Forward Backward Algorithm
 
-Suppose we have a set of sequence consisting of T words,x1,...,xT.Each word is associated with a label Yt ∈ {1,...,J}. In the forward-backward algorithm we seek to approximate P (Yt | x1:T ) up to a multiplication constant.
+Suppose we have a set of sequence consisting of T words,x1,...,xT.Each word is associated with a label Yt ∈ {1,...,J}. In the forward-backward algorithm we seek to approximate P (Yt | x1:T ) up to a multiplication constant. The forwardbackward.py use the parameter calculated in learnhmm.py and calculate forward and backward seprately and predict the tags of words.
 
 Besides, I assign tags using the minimum Bayes risk predictor.
