@@ -10,7 +10,7 @@ This is typically done with a random initialization, or initializing the weights
 
 In this model, these two initialization methods are both accepted through the paramenter parsed in:
 * RANDOM:The weights are initialized randomly from a uniform distribution from -0.1 to 0.1. The bias parameters are initialized to zero.\
-* ZERO:All weights are initialized to 0.\
+* ZERO:All weights are initialized to 0.
 
 # NeuralNet model
 neuralnet.py implements an optical character recognizer using a one hidden layer neural network with sigmoid activations. \
