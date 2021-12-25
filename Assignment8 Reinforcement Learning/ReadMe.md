@@ -2,8 +2,8 @@
 This file implement Q-learning with linear function approximation to solve the mountain car environment.\
 It implements all of the functions needed to initialize, train, evaluate, and obtain the optimal policies and action values with Q-learning. 
 
-![Alt text]("image.png")
-Figure 1 What the Mountain Car environment looks like. The car starts at some point in the valley. The goal is to get to the top right flag.
+![Alt text](https://github.com/AAAthenasty/ML_model_from_scratch/blob/main/Assignment8%20Reinforcement%20Learning/image.png)
+What the Mountain Car environment looks like. The car starts at some point in the valley. The goal is to get to the top right flag.
 
 The state of the environment is represented by two variables, position and velocity.\
 Position can be between [−1.2, 0.6] (inclusive) and velocity can be between [−0.07, 0.07] (inclusive). \
